@@ -6,15 +6,16 @@
 
 body {
     background-color: hsl(210, 60%, 98%);
+    font-size: .75em;
 }
 
 .body {
-    width: 43%;
-    margin: 55px auto;
+    width: 100%;
+    
     display: flex;
     flex-direction: column;
     padding: 20px;
-    border-radius: 20px;
+    
     background-color: hsl(0, 0%, 100%);
 }
 
@@ -85,4 +86,13 @@ p {
     color: white;
     width: 3ch;
     border-radius: 5px;
+}
+
+
+@media screen and (min-width: 480px) {
+    .body {
+        width: 43%;
+        margin: 55px auto;
+        border-radius: 20px;
+    }
 }
