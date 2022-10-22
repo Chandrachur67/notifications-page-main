@@ -90,6 +90,10 @@ p {
 
 
 @media screen and (min-width: 480px) {
+    body {
+        font-size: 1em;
+    }
+    
     .body {
         width: 43%;
         margin: 55px auto;
